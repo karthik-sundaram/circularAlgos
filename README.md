@@ -47,7 +47,7 @@ pip install git+git://github.com/karthik-sundaram/circularAlgos.git
 
 
 ```python
-from circular_algos import circular_stat
+from circularAlgos import circular_stat
 ```
 
 ## r_vonmises()
