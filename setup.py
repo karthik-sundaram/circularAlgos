@@ -10,6 +10,7 @@
 # In[ ]:
 
 
+
 from setuptools import setup 
   
 # reading long description from file 
@@ -37,7 +38,7 @@ CLASSIFIERS = [
     ] 
   
 # calling the setup function  
-setup(name='circular_algos', 
+setup(name='circularAlgos', 
       version='1.0.1', 
       description='Package with many functions for circular distributions', 
       long_description=long_description, 
@@ -45,7 +46,7 @@ setup(name='circular_algos',
       author='Karthik Sundaram', 
       author_email='karthik.sun95@gmail.com', 
       license='MIT', 
-      packages=['circular_algos'], 
+      packages=['circularAlgos'], 
       classifiers=CLASSIFIERS, 
       install_requires=REQUIREMENTS, 
       keywords='mixture models circular distributions clustering'
