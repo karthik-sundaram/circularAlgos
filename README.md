@@ -1,4 +1,11 @@
 
+# Package Name: <font color=red>circular_algos</font>
+
+
+```python
+
+```
+
 # Functionalities of this package:
 
 - <b>r_vonmises()</b>     : This function is used for generating random numbers for a von Mises circular distribution
@@ -68,7 +75,7 @@ circular_stat.r_vonmises(10,1,1)
 
 
 
-![png](output_13_1.png)
+![png](output_15_1.png)
 
 
 ## q_vonmises()
