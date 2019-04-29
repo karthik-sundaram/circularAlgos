@@ -39,10 +39,10 @@ CLASSIFIERS = [
   
 # calling the setup function  
 setup(name='circularAlgos', 
-      version='1.0.2', 
+      version='1.0.3', 
       description='Package with many functions for circular distributions', 
       long_description=long_description, 
-      url='https://github.com/karthik-sundaram/circular_algos', 
+      url='https://github.com/karthik-sundaram/circularAlgos', 
       author='Karthik Sundaram', 
       author_email='karthik.sun95@gmail.com', 
       license='MIT', 
