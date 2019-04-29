@@ -39,7 +39,7 @@ CLASSIFIERS = [
   
 # calling the setup function  
 setup(name='circularAlgos', 
-      version='1.0.1', 
+      version='1.0.2', 
       description='Package with many functions for circular distributions', 
       long_description=long_description, 
       url='https://github.com/karthik-sundaram/circular_algos', 
