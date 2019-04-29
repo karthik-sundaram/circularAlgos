@@ -1,5 +1,5 @@
 
-# Package Name: <font color=red>circular_algos</font>
+# Package Name: <font color=red>circularAlgos</font>
 
 
 ```python
@@ -28,14 +28,14 @@
 
 
 ```python
-pip install circular_algos
+pip install circularAlgos
 ```
 
 ### option (b)
 
 
 ```python
-pip install git+git://github.com/karthik-sundaram/circular_algos.git
+pip install git+git://github.com/karthik-sundaram/circularAlgos.git
 ```
 
 
