@@ -102,11 +102,11 @@ circular_stat.q_vonmises(0.5,1,6)
 ## d_vonmises()
 
 - <b>Parameters:</b>
-    - q: float/int or list, vector containing the points at which the CDF is to be calculated
+    - q: float/int or list, vector containing the points at which the PDF is to be calculated
     - mu: float/int, location parameter
     - kappa: float/int, scale parameter. Large values of kappa corresponds to lower variance
 - <b>Returns:</b>
-    - result: list, Cumulative Distribution Function (CDF) value at the given points for a von Mises distribution
+    - result: list, Probability Distribution Function (PDF) value at the given points for a von Mises distribution
 
 
 ```python
@@ -144,11 +144,12 @@ circular_stat.p_vonmises([2,0.8],2,6)
 ### angles_VMF_mix()
 
 - <b>Parameters:</b>
-    - x: float/int or list, vector containing the points at which the density is to be calculated
+    - ls: float/int or list, vector containing the points at which the mu, kappa, proportion is to be calculated
+- <b>Returns:</b>
+    - returned in the order (mu1,kappa1,mu2,kappa2,...p_i1,p_i2,...)
     - mu: float/int, location parameter
     - kappa: float/int, scale parameter. Large values of kappa corresponds to lower variance
-- <b>Returns:</b>
-    - pdf: list, Probability Distribution Function (PDF) value at the given points for a von Mises distribution
+    - p_i: mixture proportions of each mixture/cluster summing to 1
 
 
 ```python
