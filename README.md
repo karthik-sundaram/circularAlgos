@@ -106,7 +106,7 @@ circular_stat.q_vonmises(0.5,1,6)
     - mu: float/int, location parameter
     - kappa: float/int, scale parameter. Large values of kappa corresponds to lower variance
 - <b>Returns:</b>
-    - result: list, Probability Distribution Function (CDF) value at the given points for a von Mises distribution
+    - result: list, Probability Distribution Function (PDF) value at the given points for a von Mises distribution
 
 
 ```python
