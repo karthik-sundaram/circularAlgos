@@ -1,4 +1,4 @@
-A package including many functions for circular distributions:
+A package including many functions for circular distributions :
 
 1) r_vonmises() - This function is used for generating random numbers for a von Mises circular distribution
 2) q_vonmises() - This function is used used to calculate the quantiles for the given probabilities for a von Mises distribution
